@@ -4,12 +4,9 @@ This is an experimental version of motion that adds support for the
 Raspberry Pi's CSI camera module, via the MMAL API.
 
 As such, this branch has been stripped down to just the code and
-some supporting files, and does not at this time contain a means
-to build the code. Generated code files have been pre-created
-using the original's configure script (see config.h).
+some supporting files, and does not contain the autoconf files.
 
-Downloading: a temporary prebuilt binary for Raspberry Pi is available at this link:
-https://www.dropbox.com/s/xdfcxm5hu71s97d/motion-mmal.tar.gz
+It is however ready to build on a RasberryPi using the Makefile.
 
 Known working resolutions:
 
